@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Snoopy20111-Reascripts">
+<index version="1" name="Snoopy20111-Reascripts" commit="80fa22de4ec9b7672f8aa80c425b6f405da8ecb3">
   <category name="Developer">
-    <reapack name="snoop_CommonFunctions.lua" type="script" desc="Snoop_CommonFunctions">
-      <version name="1.0" author="Logan Hardin" time="2021-07-11T20:08:50Z">
+    <reapack name="Snoopy20111_CommonFunctions.lua" type="script" desc="Common Functions">
+      <version name="1.0" author="Logan Hardin" time="2023-11-06T02:54:42Z">
         <changelog><![CDATA[+Initial Release]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Developer/snoop_CommonFunctions.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/80fa22de4ec9b7672f8aa80c425b6f405da8ecb3/Developer/Snoopy20111_CommonFunctions.lua</source>
       </version>
     </reapack>
   </category>
   <category name="Utility">
-    <reapack name="snoop_Add Prefix or Suffix to Regions.lua" type="script" desc="snoop_Add Prefix or Suffix to Regions">
-      <version name="1.0" author="Logan Hardin" time="2021-07-11T20:08:50Z">
+    <reapack name="Snoopy20111_AddPrefixOrSuffixToRegions.lua" type="script" desc="Add Prefix or Suffix to Regions">
+      <version name="1.0" author="Logan Hardin" time="2023-11-06T02:54:42Z">
         <changelog><![CDATA[+Initial Release
 +A great deal of this was copied or modified from Acendan's work, please check him out)]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Add%20Prefix%20or%20Suffix%20to%20Regions.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/80fa22de4ec9b7672f8aa80c425b6f405da8ecb3/Utility/Snoopy20111_AddPrefixOrSuffixToRegions.lua</source>
       </version>
     </reapack>
-    <reapack name="snoop_Seperate Regions Per Item With Track Name.lua" type="script" desc="snoop_Seperate Regions Per Item With Track Name">
-      <version name="1.1" author="Logan Hardin" time="2021-07-11T20:08:50Z">
+    <reapack name="Snoopy20111_SeperateRegionsPerItemWithTrackName.lua" type="script" desc="Seperate Regions per Item with Track Name">
+      <version name="1.1" author="Logan Hardin" time="2023-11-06T02:54:42Z">
         <changelog><![CDATA[+Updated formatting
 +Implemented Undo/Redo block (copied in from Acendan, please check him out)
 -Removed UTIL from the script name, to look cleaner :)]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Seperate%20Regions%20Per%20Item%20With%20Track%20Name.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/80fa22de4ec9b7672f8aa80c425b6f405da8ecb3/Utility/Snoopy20111_SeperateRegionsPerItemWithTrackName.lua</source>
       </version>
     </reapack>
-    <reapack name="snoop_Snap End of Media Items.lua" type="script" desc="snoop_Snap End of Media Items">
-      <version name="1.1" author="Logan Hardin" time="2021-07-11T20:08:50Z">
+    <reapack name="Snoopy20111_SnapEndOfMediaItems.lua" type="script" desc="Snap End of Media Items">
+      <version name="1.1" author="Logan Hardin" time="2023-11-06T02:54:42Z">
         <changelog><![CDATA[+Updated formatting
 +Implemented Undo/Redo block (copied in from Acendan, please check him out)
 -Removed UTIL from the script name, to look cleaner :)]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Snap%20End%20of%20Media%20Items.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/80fa22de4ec9b7672f8aa80c425b6f405da8ecb3/Utility/Snoopy20111_SnapEndOfMediaItems.lua</source>
       </version>
     </reapack>
   </category>
@@ -38,10 +38,19 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Snoop- ReaScripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Snoopy20111- ReaScripts\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 A repository of Lua scripts used for Reaper. Mostly simple utilities.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Installation\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 To use this with Reaper and easily get any updates, use {\field{\*\fldinst{HYPERLINK "https://reapack.com/"}}{\fldrslt{\ul
+Reapack
+}}}
+, which you can install with {\field{\*\fldinst{HYPERLINK "https://reapack.com/user-guide"}}{\fldrslt{\ul
+these instructions
+}}}
+. Then add the following link to your list of Reapack repositories:\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 https://raw.githubusercontent.com/Snoopy20111/Snoopy20111-ReaScripts/main/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 You can also check me out at {\field{\*\fldinst{HYPERLINK "https://loganhardin.xyz/"}}{\fldrslt{\ul
-my website.
+my website!
 }}}
 \par}
 }
