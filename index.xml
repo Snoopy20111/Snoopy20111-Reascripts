@@ -4,7 +4,7 @@
     <reapack name="snoop_CommonFunctions.lua" type="script" desc="Snoop_CommonFunctions">
       <version name="1.0" author="Logan Hardin" time="2021-07-11T20:08:50Z">
         <changelog><![CDATA[+Initial Release]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/snoop-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Developer/snoop_CommonFunctions.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Developer/snoop_CommonFunctions.lua</source>
       </version>
     </reapack>
   </category>
@@ -13,7 +13,7 @@
       <version name="1.0" author="Logan Hardin" time="2021-07-11T20:08:50Z">
         <changelog><![CDATA[+Initial Release
 +A great deal of this was copied or modified from Acendan's work, please check him out)]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/snoop-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Add%20Prefix%20or%20Suffix%20to%20Regions.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Add%20Prefix%20or%20Suffix%20to%20Regions.lua</source>
       </version>
     </reapack>
     <reapack name="snoop_Seperate Regions Per Item With Track Name.lua" type="script" desc="snoop_Seperate Regions Per Item With Track Name">
@@ -21,7 +21,7 @@
         <changelog><![CDATA[+Updated formatting
 +Implemented Undo/Redo block (copied in from Acendan, please check him out)
 -Removed UTIL from the script name, to look cleaner :)]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/snoop-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Seperate%20Regions%20Per%20Item%20With%20Track%20Name.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Seperate%20Regions%20Per%20Item%20With%20Track%20Name.lua</source>
       </version>
     </reapack>
     <reapack name="snoop_Snap End of Media Items.lua" type="script" desc="snoop_Snap End of Media Items">
@@ -29,7 +29,7 @@
         <changelog><![CDATA[+Updated formatting
 +Implemented Undo/Redo block (copied in from Acendan, please check him out)
 -Removed UTIL from the script name, to look cleaner :)]]></changelog>
-        <source main="main">https://github.com/Snoopy20111/snoop-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Snap%20End%20of%20Media%20Items.lua</source>
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-ReaScripts/raw/ce69c9b37021b37cdc5ce939406edeeb09b35abe/Utility/snoop_Snap%20End%20of%20Media%20Items.lua</source>
       </version>
     </reapack>
   </category>
