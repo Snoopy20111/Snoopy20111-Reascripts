@@ -1,5 +1,5 @@
 --[[
- * ReaScript Name: Snoop_CommonFunctions
+ * ReaScript Name: Common Functions
  * Description: Pre-written functions, to help keep the other scripts shorter and easier to understand.
  * Author: Logan Hardin
  * Author URl: https://loganhardin.xyz
@@ -30,8 +30,6 @@
 --]]
 --[[
  * Changelog:
- * v1.01
-  +Goofed the name metadata
  * v1.0
 	+Initial Release
 --]]

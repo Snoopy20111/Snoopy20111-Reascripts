@@ -1,9 +1,9 @@
 --[[
- * ReaScript Name: snoop_Add Prefix or Suffix to Regions
- * Description: 
+ * ReaScript Name: Add Prefix or Suffix to Regions
+ * Description: Allows adding prefixes or suffixes to region names in bulk.
  * Author: Logan Hardin
  * Author URl: https://loganhardin.xyz
- * Github Repository: https://github.com/Snoopy20111/snoop-ReaScripts
+ * Github Repository: https://github.com/Snoopy20111/Snoopy20111-Reascripts
  * REAPER: 6.xx
  * Extensions: None
  * Version: 1.0
