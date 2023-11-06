@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Snoopy20111-Reascripts" commit="80fa22de4ec9b7672f8aa80c425b6f405da8ecb3">
+<index version="1" name="Snoopy20111-Reascripts" commit="15901673e9aaaec55ab6d6fbd319439a1d25c9a7">
   <category name="Developer">
     <reapack name="Snoopy20111_CommonFunctions.lua" type="script" desc="Common Functions">
       <version name="1.0" author="Logan Hardin" time="2023-11-06T02:54:42Z">
@@ -14,6 +14,11 @@
         <changelog><![CDATA[+Initial Release
 +A great deal of this was copied or modified from Acendan's work, please check him out)]]></changelog>
         <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/80fa22de4ec9b7672f8aa80c425b6f405da8ecb3/Utility/Snoopy20111_AddPrefixOrSuffixToRegions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Snoopy20111_MoveMediaItemsEndToEnd.lua" type="script" desc="Move Media Items End To End">
+      <version name="1.0" author="Logan Hardin" time="2023-11-06T05:11:01Z">
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/15901673e9aaaec55ab6d6fbd319439a1d25c9a7/Utility/Snoopy20111_MoveMediaItemsEndToEnd.lua</source>
       </version>
     </reapack>
     <reapack name="Snoopy20111_SeperateRegionsPerItemWithTrackName.lua" type="script" desc="Seperate Regions per Item with Track Name">
