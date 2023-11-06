@@ -7,10 +7,7 @@
  * REAPER: 6.xx
  * Extensions: None
  * Version: 1.0
---]]
---[[
  * Changelog:
- * v1.0
 	+Initial Release
     +A great deal of this was copied or modified from Acendan's work, please check him out)
 --]]

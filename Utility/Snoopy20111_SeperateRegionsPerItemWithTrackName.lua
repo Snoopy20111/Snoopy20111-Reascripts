@@ -7,15 +7,10 @@
  * REAPER: 6.xx
  * Extensions: None
  * Version: 1.1
---]]
---[[
  * Changelog:
- * v1.1
 	+Updated formatting
 	+Implemented Undo/Redo block (copied in from Acendan, please check him out)
 	-Removed UTIL from the script name, to look cleaner :)
- * v1.0
-	+Initial Release
 --]]
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

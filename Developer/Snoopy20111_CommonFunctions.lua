@@ -7,7 +7,8 @@
  * REAPER: 6.xx
  * Extensions: None
  * Version: 1.0
- * 
+ * Changelog:
+	Initial "Release"
  * About:
     #Lua Utilities
     By Logan Hardin
@@ -22,16 +23,12 @@
 
     ### Upper section - Templates
     * For easy starting places on future scripts.
-    * Many of these are almost completely copied from Acendan's util script! I concede all credit.
+    * Many of these are almost completely copied from Acendan's util script.
 
     ### Lower section - Utilities
     * A stack of helper functions, made into a library for easy calling.
     * CTRL+F if you need to!
---]]
---[[
- * Changelog:
- * v1.0
-	+Initial Release
+ * NoIndex: true
 --]]
 
 --[[
