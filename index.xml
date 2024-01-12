@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Snoopy20111-Reascripts" commit="564a3871d9798174f601984723605ed48f881547">
+<index version="1" name="Snoopy20111-Reascripts" commit="78f3e1d222ce0c08caf43f96a6e23a19328c2ce7">
   <category name="Developer">
     <reapack name="Snoopy20111_CommonFunctions.lua" type="script" desc="Common Functions">
       <version name="1.0" author="Logan Hardin" time="2023-11-06T02:54:42Z">
@@ -24,6 +24,9 @@
     <reapack name="Snoopy20111_NameAndEnumerateRegions.lua" type="script" desc="Name and Enumerate Regions">
       <version name="1.0" author="Logan Hardin" time="2024-01-12T22:40:03Z">
         <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/564a3871d9798174f601984723605ed48f881547/Utility/Snoopy20111_NameAndEnumerateRegions.lua</source>
+      </version>
+      <version name="1.01" author="Logan Hardin" time="2024-01-12T23:03:39Z">
+        <source main="main">https://github.com/Snoopy20111/Snoopy20111-Reascripts/raw/78f3e1d222ce0c08caf43f96a6e23a19328c2ce7/Utility/Snoopy20111_NameAndEnumerateRegions.lua</source>
       </version>
     </reapack>
     <reapack name="Snoopy20111_SeperateRegionsPerItemWithTrackName.lua" type="script" desc="Seperate Regions per Item with Track Name">
