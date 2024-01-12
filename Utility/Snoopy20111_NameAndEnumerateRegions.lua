@@ -6,9 +6,9 @@
  * Github Repository: https://github.com/Snoopy20111/Snoopy20111-Reascripts
  * REAPER: 6.xx
  * Extensions: None
- * Version: 1.0
+ * Version: 1.01
  * Changelog:
-	+Initial Release
+	+Renamed 3rd parameter from "Minimum Number of Zeros" to "Minimum Padding Digits"
 --]]
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,7 +26,7 @@ local script_directory = ({reaper.get_action_context()})[2]:sub(1,({reaper.get_a
 function main()
 
 	--Get user input; Inputs are Region Name, and the character or text used as a separator.
-	local ret_input, user_input = reaper.GetUserInputs("Name & Enumerate Regions", 3, "Base Track Name,Separator Character,Minimum Number of Zeros" .. ",extrawidth=100","Region,_,2")
+	local ret_input, user_input = reaper.GetUserInputs("Name & Enumerate Regions", 3, "Base Track Name,Separator Character,Minimum Padding Digits" .. ",extrawidth=100","Region,_,2")
 	if not ret_input then return end
 
 	region_name_input, separator_char_input, min_zeros_input = user_input:match("([^,]+),([^,]+),([^,]+)") --plugs the input values to these variables
