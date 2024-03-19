@@ -6,10 +6,9 @@
  * Github Repository: https://github.com/Snoopy20111/Snoopy20111-Reascripts
  * REAPER: 6.xx
  * Extensions: None
- * Version: 1.0
+ * Version: 1.01
  * Changelog:
-	+Initial Release
-    +A great deal of this was copied or modified from Acendan's work, please check him out)
+	+Fixed an issue where searching for a dependency utility library would always fail
 --]]
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -21,8 +20,8 @@ local script_name = ({reaper.get_action_context()})[2]:match("([^/\\_]+)%.lua$")
 local script_directory = ({reaper.get_action_context()})[2]:sub(1,({reaper.get_action_context()})[2]:find("\\[^\\]*$"))
 
 -- Load lua utilities
-snoop_CommonFunctions = reaper.GetResourcePath()..'/scripts/snoop-ReaScripts/Developer/snoop_CommonFunctions.lua'
-if reaper.file_exists( snoop_CommonFunctions ) then dofile( snoop_CommonFunctions ); if not snoop or snoop.version() < 1.0 then snoop.msg('This script requires a newer version of Snoops Common Functions. Please run:\n\nExtensions > ReaPack > Synchronize Packages',"snoop_CommonFunctions"); return end else reaper.ShowConsoleMsg("This script requires Snoops Common Functions! Please install them here:\n\nExtensions > ReaPack > Browse Packages > 'Snoops Common Functions"); return end
+snoop_CommonFunctions = reaper.GetResourcePath()..'/scripts/Snoopy20111-ReaScripts/Developer/Snoopy20111_CommonFunctions.lua'
+if reaper.file_exists( Snoopy20111_CommonFunctions ) then dofile( Snoopy20111_CommonFunctions ); if not snoop or snoop.version() < 1.0 then snoop.msg('This script requires a newer version of Snoopy20111 Common Functions. Please run:\n\nExtensions > ReaPack > Synchronize Packages',"Snoopy20111_CommonFunctions"); return end else reaper.ShowConsoleMsg("This script requires Snoopy20111 Common Functions! Please install them here:\n\nExtensions > ReaPack > Browse Packages > 'Snoopy20111 Common Functions"); return end
 
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- ~~~~~~~~~~~~ FUNCTIONS ~~~~~~~~~~~
